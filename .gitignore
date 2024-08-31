@@ -1,0 +1,45 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore system-specific files
+.DS_Store
+*.log
+
+# Ignore Python egg and other package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Ignore temporary files created by text editors and IDEs
+*.swp
+*.swo
+*.swn
+.idea/
+.vscode/
+*.iml
+
+# Ignore Python-related configurations
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore logs, coverage reports, and debug files
+*.log
+*.out
+*.err
+coverage/
+*.cover
+.hypothesis/
+*.pyo
+*.pyd
+*.pdb
+
+# Ignore the .env file if you're using one for environment variables
+.env
+
